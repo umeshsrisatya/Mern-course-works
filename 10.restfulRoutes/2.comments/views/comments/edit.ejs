@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Edit Comment</title>
+    </head>
+    <body>
+        <a href="/comments">To view comments</a>
+        <h2>Edit Comment</h2>
+        <form action="/comments/<%= comment.id %>?_method=PUT" method="POST">
+            <section>
+                <label for="username">username:</label>
+                <input
+                    type="text"
+                    placeholder="Enter your username"
+                    name="username"
+                    id="username"
+                    value="<%= comment.username %>"
+                />
+            </section>
+            <section>
+                <label for="comment">Comment:</label> <br />
+                <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Enter your comment">
+<%= comment.comment %></textarea
+                >
+            </section>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

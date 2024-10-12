@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Soccer</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                text-align: center;
+                padding: 20px;
+            }
+            .container {
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                max-width: 600px;
+                margin: auto;
+            }
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .header img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .header h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+            .subscribers {
+                color: #777;
+                font-size: 14px;
+            }
+            .description {
+                margin: 20px 0;
+                font-size: 16px;
+            }
+            .posts {
+                text-align: left;
+            }
+            .post {
+                background-color: #f9f9f9;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 5px;
+            }
+            .post h2 {
+                margin: 0;
+                font-size: 18px;
+            }
+            .post p {
+                margin: 5px 0 0;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1><%= name %></h1>
+                <img src="<%= image %>" alt="Soccer Badge" />
+            </div>
+            <div class="subscribers">Subscribers: <%= subscribers %></div>
+            <div class="description">
+                <p><%= description %></p>
+            </div>
+            <div class="posts">
+                <% for(let post of posts) { %>
+                <div class="post">
+                    <h2><%= post.title %></h2>
+                    <p>Author: <%= post.author %></p>
+                </div>
+                <% } %>
+            </div>
+        </div>
+    </body>
+</html>

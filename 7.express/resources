@@ -1,0 +1,3 @@
+/* commonjs syntax : require and module.exports
+    "type": "module",
+    es6 syntax : import and export*/

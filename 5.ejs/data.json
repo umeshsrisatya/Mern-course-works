@@ -1,0 +1,62 @@
+{
+    "soccer": {
+        "name": "Soccer",
+        "subscribers": 1000,
+        "image": "https://img.freepik.com/free-photo/view-soccer-ball-field-grass_23-2150887547.jpg?t=st=1728587326~exp=1728590926~hmac=f1417bf174b4426ee697ab6f6fc9602e91a36f746e4a56b5f22db9b410ca6f1c&w=360",
+        "description": "The football subreddit. News, results and discussion about the beautiful game.",
+        "posts": [
+            {
+                "title": "Marten de Roon to make pizza for more than 1000 people",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Stephan Lichtsteiner has signed a new contract with FC Augsburg until 2022",
+                "author": "odd person"
+            },
+            {
+                "title": "The 2020-21 UEFA Champions League final will be played in Istanbul",
+                "author": "joeextreme"
+            }
+        ]
+    },
+    "Chickens": {
+        "name": "Chickens",
+        "subscribers": 100,
+        "image": "https://img.freepik.com/free-vector/colorful-realistic-rooster_1284-10245.jpg?t=st=1728587169~exp=1728590769~hmac=94a13d741896a2b9d19563c04ca1f066360c06fb3dcfa45ec97a5aa2a2ba4c43&w=740",
+        "description": "The chicken subreddit. News, results and discussion about the beautiful chicken.",
+        "posts": [
+            {
+                "title": "Chicken is the best",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Chicken is the best",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Chicken is the best",
+                "author": "joeextreme"
+            }
+        ]
+    },
+    "mighty harvest": {
+        "name": "Mighty Harvest",
+        "subscribers": 100,
+        "image": "https://as2.ftcdn.net/v2/jpg/08/93/91/19/1000_F_893911976_HLoexWHSaSCfAnO9jv5U0YCbYUGvQVBr.jpg",
+        "description": "The harvest subreddit. News, results and discussion about the beautiful harvest.",
+        "posts": [
+            {
+                "title": "Harvest is the best",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Harvest is the best",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Harvest is the best",
+                "author": "joeextreme"
+            }
+        ]
+    }
+}

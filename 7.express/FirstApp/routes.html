@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Get and Post Requests</h1>
+        <h2>Get <i>(checking for availability)</i></h2>
+        <form action="http://localhost:6969/order" method="get">
+            <input type="text" name="type" placeholder="enter your type" />
+            <input type="number" name="qty" placeholder="enter your qty" />
+            <button type="submit">submit</button>
+        </form>
+
+        <h2>
+            Post
+            <i>(placing order)</i>
+        </h2>
+        <form action="http://localhost:6969/order" method="post">
+            <input type="text" name="type" placeholder="enter your type" />
+            <input type="number" name="qty" placeholder="enter your qty" />
+            <button>submit</button>
+        </form>
+    </body>
+</html>

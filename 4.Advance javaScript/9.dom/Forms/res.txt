@@ -1,0 +1,8 @@
+// const form = document.querySelector("#Login");
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault(); // Prevent the default form submission
+//     console.log("Form Submitted");
+// });
+// e.preventDefault(); is used to prevent the default form submission
+// when the form is submitted, the page is reloaded by default
+// to prevent this, we use e.preventDefault();
