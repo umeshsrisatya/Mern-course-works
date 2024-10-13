@@ -79,6 +79,9 @@ Learn how to implement RESTful routes in a Node.js and Express application, usin
 
 ## How to Run
 
-1. **Clone this repository:**
+1. **Clone this repository and run the project:**
    ```bash
    git clone https://github.com/your-repo-url.git
+   cd <coursework-folder>
+   npm install
+   node app.js
